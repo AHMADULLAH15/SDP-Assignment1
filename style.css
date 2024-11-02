@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(26, 26, 26);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    margin: auto;
+    margin-right: 15px;
+}
+
+.resume-btn a {
+    border: none;
+    background-color: #00ffff;
+    text-decoration: none;
+}
+
+.resume-btn {
+    background-color: rgb(26, 26, 26);
+    border: none;
+}
+
+.my-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name {
+    color: #00ffff;
+    /* margin-left: 40px; */
+}
+
+.icon {
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+}
+
+.first-web {
+    padding: 5px;
+    width: 700px;
+    border: 1px solid gray;
+    justify-items: center;
+}
+
+.website {
+    margin: auto;
+}
+
+.experience {
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-edu {
+    margin-top: 10%;
+}
+
+.box {
+    border: 1px solid gray;
+    width: 350px;
+    height: 330px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.box input,
+textarea {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    padding: 5px;
+}
+
+.fot-icon {
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    justify-content: center;
+    color: #00ffff;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav a {
+        font-size: 1rem;
+    }
+
+    .name {
+        font-size: 1.2rem;
+    }
+
+    .first-web {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .name h1 {
+        font-size: 1.5rem;
+    }
+
+    .icon {
+        font-size: 1rem;
+    }
+
+    .fot-icon {
+        gap: 10px;
+    }
+}
